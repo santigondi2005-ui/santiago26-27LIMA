@@ -1,0 +1,33 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: gainsboro;
+    color: rgb(0, 99, 99);
+}
+td, th{
+    border: 1px solid black;
+}
+.recreo{
+    text-align: center;
+}
+.db{
+
+}
+.pro{
+
+}
+.lima{
+
+}
+.ip{
+
+}
+.sis{
+
+}
+.cont{
+
+}
+.ing{
+    
+}
