@@ -1,0 +1,17 @@
+html{
+    background-color: pink;
+}
+header{
+    background-color: aqua;
+    border: 1px solid peru;
+}
+header > h1{
+    background-color: yellow;
+    padding: 30px 900px 150px 10px;
+}
+strong{
+    background-color: lawngreen;
+}
+aside{
+    background-color: rgba(0, 0, 255, 0.5);
+}
