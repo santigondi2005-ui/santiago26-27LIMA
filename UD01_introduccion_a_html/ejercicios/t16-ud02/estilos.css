@@ -1,0 +1,23 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h2{
+    color:darkred;
+}
+hr{
+    color: darkred;
+    background-color: darkred;
+    height: 2px;
+}
+span{
+    color: white;
+    background-color: red;
+}
+address{
+    background-color: rgb(204, 203, 203);
+    border-left: 3px solid darkred;
+}
+abbr{
+    font-style: italic;
+    color: red;
+}
