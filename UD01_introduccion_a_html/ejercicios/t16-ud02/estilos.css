@@ -3,6 +3,7 @@
 }
 h1,h2{
     color:darkred;
+    border-bottom: 2px solid darkred;
 }
 hr{
     color: darkred;
@@ -16,6 +17,9 @@ span{
 address{
     background-color: rgb(204, 203, 203);
     border-left: 3px solid darkred;
+}
+hr{
+    display: none;
 }
 abbr{
     font-style: italic;
