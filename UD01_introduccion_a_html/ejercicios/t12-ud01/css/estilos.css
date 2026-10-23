@@ -1,0 +1,27 @@
+body{
+	background-color: palegreen;	
+}
+body > ol > li{
+	list-style-type: square;
+}
+ol > ol >  li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:active{
+	color: yellow;
+}
+body > ol > li a:hover{
+	background-color: pink;
+}
+li ol li a:hover{
+	background-color: grey;
+}
+li::first-letter{
+	font-size: larger;
+}
