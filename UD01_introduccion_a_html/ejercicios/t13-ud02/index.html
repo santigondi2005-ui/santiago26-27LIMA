@@ -1,0 +1,51 @@
+<!DOCKTYPE html>
+<html>
+	<head>
+		<meta charset=”utf-8”/>
+		<title> formateo de texto con css </title>
+		<meta name=”author” content=”santiago” />
+		<meta name="description" content=2º tarea css” />
+		<meta name="keyword" content=”tarea” />
+        <link rel="stylesheet" href="estilos.css">
+	</head>
+	<body>
+        <form action="#" method="get">
+            <label for="nombre">Nombre:
+                <input type="text" name="name" id="nombre" minlength="3" maxlength="30" required pattern="[A-ZÁÉÍÓÚ]{1}[a-zA-ZáéíóúÁÉÍÓÚ\s]{2-29}">
+            </label>
+            <br>
+            <label for="email">Correo electrónico:
+                <input type="email" name="correo" id="email" minlength="3" maxlength="50" required pattern="[A-ZÁÉÍÓÚ]{1}[a-zA-ZáéíóúÁÉÍÓÚ\s]{2-29}" placeholder="">
+            </label>
+            <br>
+            <label for="email">email:
+                <input type="url" name="correo" id="email" placeholder="Correo electrónico">
+            </label>
+            <br>
+            <label for="fech">Fecha:
+                <input type="date" name="date" id="fech">
+            </label>
+            <br>
+            <label for="hour">Hora:
+                <input type="time" name="hora" id="hour">
+            </label>
+            <br>
+            <label for="tele">Telefono:
+                <input type="tel" name="telefono" id="tele">
+            </label>
+            <br>
+            <label for="edad">Edad:
+                <input type="number" name="age" id="edad" max="65" min="18">
+            </label>
+            <br>
+            <label for="cor">Color:
+                <input type="color" name="col" id="cor">
+            </label>
+            <br>
+            <fieldset>
+                <input type="button" value="enviar">
+            </fieldset>
+            
+        </form>
+    </body>
+</html>
