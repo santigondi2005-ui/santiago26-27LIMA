@@ -1,0 +1,37 @@
+tr:nth-child(7n+1) {
+    background-color: red;
+}
+
+tr:nth-child(7n+2) {
+    background-color: darkorange;
+}
+
+tr:nth-child(7n+3) {
+    background-color: yellow;
+}
+
+tr:nth-child(7n+4) {
+    background-color: greenyellow;
+}
+
+tr:nth-child(7n+5) {
+    background-color: aqua;
+}
+
+tr:nth-child(7n+6) {
+    background-color: cornflowerblue;
+}
+
+tr:nth-child(7n+7) {
+    background-color: blueviolet;
+}
+
+tr,
+td {
+    padding: 10px;
+}
+
+table,
+td {
+    border: 1px solid black;
+}
