@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="repaso">
+        <link rel="stylesheet" href="estilos.css">
+        <meta name="name" content="santiago">
+        <meta name="keyword" content="tarea">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="" method="get">
+            <fieldset>
+                <legend>1.Datos persnales</legend>
+                <label for="name">Nombre: </label>
+                <input type="text" name="nombre" id="name" minlength="3" maxlength="40" placeholder="Tu nombre" required>
+                <br>
+                <br>
+                <label for="surname">Apellidos: </label>
+                <input type="text" name="apellido" id="surname" minlength="3" maxlength="60" placeholder="Tus apellidos" required>
+                <br>
+                <br>
+                <label for="pass">Contraseña: </label>
+                <input type="password" name="contraseña" id="pass" required minlength="8" maxlength="20" pattern="(?=.*[A-Za-z])(?=.*[0-9]).+" placeholder="0 a 20 caracteres">
+                <br>
+                <br>
+                <label for="email">Correo electronico: </label>
+                <input type="email" name="correo" id="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="nombre@ejemplo.com">
+                <br>
+                <br>
+                <label for="tele">Telefono</label>
+                <input type="tel" name="telefono" id="tele" pattern="[0-9]{9}" placeholder="123456789">
+                <br>
+                <br>
+                <label for="date">Fecha de nacimiento: </label>
+                <input type="date" name="" id="" min="1950-01-01" max="2010-12-31" required>
+                <br>
+                <br>
+                <label for="age">Edad</label>
+                <input type="number" name="edad" id="age" required max="14" min="100">
+                <br>
+                <br>
+                <label for="taller">Buscar un taller:</label>
+                <input type="search" name="tall" id="taller">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>2.Inscripcion</legend>
+                <br>
+                <label for="isnc">Inscripcion: </label>
+                <input type="datetime-local" name="inscripcion" id="isnc" max="1950-01-01T00-00" min="2010-12-31T00-00">
+                <br>
+                <br>
+                <label for="mes">Mes preferido</label>
+                <input type="month" name="meses" id="mes" required>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>3.Informacion adicional</legend>
+            </fieldset>
+            <br>
+        </form>
+    </body>
+</html>

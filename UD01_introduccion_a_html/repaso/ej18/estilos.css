@@ -1,0 +1,12 @@
+input:required{
+    border: 2px solid lightblue;
+}
+input:valid{
+    background-color:lightgreen;
+}
+input:invalid{
+    background-color: rgb(254, 155, 175);
+}
+input{
+    border: none;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="santiago gonzale" />
+    <meta name="keyword" content="repaso" />
+    <meta charset="utf-8" />
+    <meta name="description" content="ejercicio de repaso" />
+    <title></title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="nombre" maxlength="50">
+        <br>
+        <label for="surname">Apellido:</label>
+        <input type="text" id="surname" name="apellido" maxlength="50">
+        <br>
+        <p>Sexo: </p>
+        <label for="sex">Hombre</label>
+        <input type="radio" id="sex" name="Sexo" value="hombre">
+        <label for="sex">Mujer</label>
+        <input type="radio" id="sex" name="Sexo" value="mujer">
+        <br>
+        <label for="email">Correo Electrónico</label>
+        <input type="email" name="correo" id="email" placeholder="Introdusca su correo Electrónico">
+        <br>
+        <input type="checkbox" name="ofertas" id="info" checked>
+        <label for="info">Desexo recibir información sobre novidades  e ofertas</label>
+        <br>
+        <input type="cond" name="condicion" id="cond">
+        <label for="cond">Declaro aceptar as condicións xerais do programa e a normativa sobre protección de datos</label>
+        <br>
+        <label for="pobla">Poblacio:</label>
+        <select name="poblacion" id="pobla">
+            <option value="" selected>--Selecciona una provicia--</option>
+            <option value="a coruña">A Coruña</option>
+            <option value="lugo">Lugo</option>
+            <option value="ourense">Ourense</option>
+            <option value="pontevedra">Pontevedra</option>
+        </select>
+        <br>
+        <label for="descrip">Descripcion</label>
+        <textarea name="descripcion" id="descrip"></textarea>
+        <br>
+        <button type="button" name="envia" value="enviar">Enviar</button>
+    </form>
+</body>
+
+</html>
