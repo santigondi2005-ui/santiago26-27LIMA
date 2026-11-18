@@ -1,0 +1,76 @@
+:root {
+    --verde-claro: rgb(146, 239, 208);
+    --verde: rgb(79, 231, 160);
+    --verde-oscuro: rgb(22, 58, 46);
+    --amarillo-claro: khaki;
+    --oro: rgb(205, 174, 0);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:80px;
+    margin-left: 33em;
+    margin-right: 33em;
+}
+
+article {
+    border-radius: 0em 2em 2em 2em;
+    box-shadow: 5px 5px 10px black;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+.imagen {
+
+}
+
+.descripcion h1 {
+
+}
+
+.descripcion a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.precio {
+        border-radius: 1em;
+
+    background-color: var(--verde-claro);
+        padding: 4px;
+        color: black;
+        padding-right:20px ;
+    padding-left: 20px;
+
+}
+
+.comprar{
+         border-radius: 1em;
+         background-color: var(--verde);
+        padding: 4px;
+        color: black;
+        display: block;
+        text-align: center;
+        
+        
+
+}
+
+.valoracion{
+        border-radius: 1em;
+        padding: 4px;
+
+    background-color: var(--amarillo-claro);
+    color: var(--oro);
+    padding-right:20px ;
+    padding-left: 20px;
+}
+
+.descripcion p{
+ font-size: 14px;
+}
